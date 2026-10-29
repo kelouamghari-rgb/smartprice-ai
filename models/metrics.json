@@ -1,0 +1,56 @@
+{
+  "reference_prices": {
+    "Espresso": 15.0,
+    "Cappuccino": 25.0,
+    "Latte": 28.0,
+    "Croissant": 12.0,
+    "Sandwich": 35.0
+  },
+  "price_support": {
+    "Cappuccino": [
+      0.6,
+      1.5
+    ],
+    "Croissant": [
+      0.6,
+      1.5
+    ],
+    "Espresso": [
+      0.6,
+      1.5
+    ],
+    "Latte": [
+      0.6,
+      1.5
+    ],
+    "Sandwich": [
+      0.6,
+      1.5
+    ]
+  },
+  "metrics": {
+    "mae": 1.9950484280363154,
+    "rmse": 2.6375578848452355,
+    "r2": 0.6955864881479655,
+    "poisson_deviance": 1.1140292239573883,
+    "baseline_mae": 3.184970238095238
+  },
+  "trained_at": "2026-10-29T14:47:37+00:00",
+  "rows": 12600,
+  "date_range": [
+    "2025-01-01",
+    "2025-06-29"
+  ],
+  "sklearn_version": "1.9.1",
+  "features": [
+    "product",
+    "hour",
+    "day_of_week",
+    "price_index",
+    "promotion",
+    "is_weekend",
+    "is_peak_hour",
+    "log_price",
+    "log_price_x_peak"
+  ]
+}
